@@ -11,6 +11,7 @@ const HomePage = () => {
         
         <IntroCard/>
         <TweetPage/>
+        <Text>bsbkjsbfkj</Text>
         
         
         <View style={{ flex: 3, backgroundColor: "gray", borderRadius:20 }}> 
