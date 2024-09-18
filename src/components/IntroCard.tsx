@@ -12,18 +12,21 @@ const IntroCard = () => {
                     </View>
 
 
-                    <View style={{ flex: 3, backgroundColor: "pink", padding: 5, borderRadius:10 }}>
+                    <View style={{ flex: 3, backgroundColor: "white", padding: 5, borderRadius:10 }}>
 
                         <View>
                         <Text style={{ fontSize: 20, color:"black" }}>Preity Mukhundhan</Text>
 
                         </View>
-                            <View style={{flexDirection:"row", justifyContent:"space-between",backgroundColor:"green",height:40,alignItems:"center"}}>
+                            <View style={{flexDirection:"row", justifyContent:"space-between",height:15,alignItems:"center"}}>
                                 <Text style={{fontSize:8, color:"black",flexGrow:1}}>Indian Actress and Model</Text>
-                                <View style={{flexDirection:"row",backgroundColor:"red",width:40,alignItems:"center"}}>
-                                    <Text style={{fontSize:10, color:"blue",flexGrow:1}}>Bioo</Text>
-                                    <View style={{width:5, height:5, backgroundColor:"yellow"}}>
-                                </View>
+                                <View style={{flexDirection:"row",width:40,alignItems:"center",paddingRight:5}}>
+                                    <Text style={{fontSize:10, color:"blue",flexGrow:1}}>Bio</Text>
+                                    <Image
+                            source={{ uri: "https://image.spreadshirtmedia.net/image-server/v1/products/T1459A839PA4459PT28D315780325W10000H6676/views/1,width=550,height=550,appearanceId=839,backgroundColor=F2F2F2/arrow-icon-right-direction-symbol-sign-sticker.jpg" }}
+                            style={{ height: 10, width: 15, borderWidth:3, borderRadius:20}} />
+                                    {/* <View style={{width:10, height:10, backgroundColor:"yellow"}}>
+                                </View> */}
                             </View>
                         </View>
                         <View style={{ flex: 1, justifyContent:"space-around"}}>
