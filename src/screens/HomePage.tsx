@@ -8,12 +8,13 @@ import TweetPage from './TweetPage';
 const HomePage = () => {
 
     return <View style={{ flex: 1, backgroundColor: "white",padding:5 }}>
+
+
+
+
         
         <IntroCard/>
         <TweetPage/>
-        <Text>bsbkjsbfkj</Text>
-        
-        
         <View style={{ flex: 3, backgroundColor: "gray", borderRadius:20 }}> 
             <View style={{ flex: 5, justifyContent:"center" }}>
                 <View style={{flex:1, backgroundColor:"white", padding:5, justifyContent:"space-around", alignItems:"center", flexDirection:"row" }}>
