@@ -1,8 +1,5 @@
 import React from 'react';
-import {
-    StyleSheet,
-    View
-} from 'react-native';
+import {StyleSheet, View} from 'react-native';
 import SectionTitle from './atoms/SectionTitle';
 import SocialMediaTile from './atoms/SocialMediaTile';
 
@@ -21,7 +18,6 @@ export default function SocialMediaHandles() {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: 'white',
     alignItems: 'center',
     flexDirection: 'row',
   },

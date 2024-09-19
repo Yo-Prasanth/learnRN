@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, View } from 'react-native';
+import {StyleSheet, View} from 'react-native';
 import AgeCounterTile from '../atoms/AgeCounterTile';
 
 const AgeCounter = () => {
@@ -15,7 +15,6 @@ export default AgeCounter;
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: 'red',
     flexDirection: 'row',
     justifyContent: 'space-between',
   },

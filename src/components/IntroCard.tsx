@@ -28,6 +28,8 @@ const IntroCard = () => {
             />
           </View>
         </View>
+        {/* to push to the bottom */}
+        <View style={{flexGrow: 1}} />
         <AgeCounter />
       </View>
     </View>
@@ -39,11 +41,19 @@ export default IntroCard;
 const style = StyleSheet.create({
   container: {
     flexDirection: 'row',
-    backgroundColor: 'white',
-    borderRadius: 10,
+    backgroundColor: '#fff',
+    padding: 8,
+    elevation: 1,
+    borderRadius: 16,
   },
 
-  image: {height: 140, width: 130, borderWidth: 3, borderRadius: 20},
+  image: {
+    height: 150,
+    width: 150,
+    borderWidth: 3,
+    borderRadius: 8,
+    marginRight: 8,
+  },
 
   detailsContainer: {
     flexGrow: 1,

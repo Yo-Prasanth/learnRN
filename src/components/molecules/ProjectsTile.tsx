@@ -1,7 +1,7 @@
 import React from 'react';
-import {Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
+import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
-export default function ProjectsTile() {
+export default function ProjectsTile({movie}) {
   return (
     <TouchableOpacity style={styles.container}>
       <Image
@@ -11,8 +11,8 @@ export default function ProjectsTile() {
         style={styles.image}
       />
       <View style={{justifyContent: 'center'}}>
-        <Text style={styles.title}>Star</Text>
-        <Text style={styles.year}>2024</Text>
+        <Text style={styles.title}>{movie.title}</Text>
+        <Text style={styles.year}>{movie.year}</Text>
       </View>
     </TouchableOpacity>
   );
@@ -20,17 +20,17 @@ export default function ProjectsTile() {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#d3d3d3',
+    backgroundColor: '#fff',
     borderRadius: 5,
     flexDirection: 'row',
     paddingVertical: 12,
     paddingHorizontal: 12,
-    marginVertical: 12,
+    marginBottom: 12,
   },
 
   image: {
-    width: 40,
-    height: 40,
+    width: 64,
+    height: 64,
     borderRadius: 5,
     borderColor: 'yellow',
     borderWidth: 1,

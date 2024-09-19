@@ -11,11 +11,13 @@ export default function SectionTitle({title}) {
 
 const styles = StyleSheet.create({
   container: {
-    paddingVertical: 24,
+    paddingTop: 16,
+    paddingBottom: 8,
   },
   title: {
     fontSize: 20,
     color: 'black',
-    paddingTop: 5,
+    marginLeft: 8,
+    fontWeight: '800',
   },
 });

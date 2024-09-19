@@ -27,13 +27,14 @@ export default function SocialMediaTile() {
 
 const styles = StyleSheet.create({
   container: {
-    height: 35,
-    width: 35,
-    backgroundColor: '#d3d3d3',
-    borderRadius: 20,
+    height: 64,
+    width: 64,
+    backgroundColor: '#fff',
+    borderRadius: 8,
     justifyContent: 'center',
     alignItems: 'center',
     marginRight: 16,
+    elevation: 1,
   },
 
   image: {

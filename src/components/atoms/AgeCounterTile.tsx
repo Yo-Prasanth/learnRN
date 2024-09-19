@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import {StyleSheet, Text, View} from 'react-native';
 
 export default function AgeCounterTile({number, text}) {
   return (
@@ -18,7 +18,7 @@ export default function AgeCounterTile({number, text}) {
 
 const styles = StyleSheet.create({
   numberContainer: {
-    backgroundColor: 'gray',
+    backgroundColor: '#fff',
     borderRadius: 10,
     justifyContent: 'center',
     width: 64,

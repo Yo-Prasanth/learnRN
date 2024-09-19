@@ -2,15 +2,12 @@ import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 import SectionTitle from './atoms/SectionTitle';
 
-export default function RecentTweet() {
+export default function RecentTweet({tweet_text}) {
   return (
     <View>
       <SectionTitle title={'Recent Tweet'} />
       <View style={styles.container}>
-        <Text style={styles.tweet_text}>
-          Let's the countdown begins! I am a beyound excited for the new movie
-          coming out soon. Get ready to be amazed
-        </Text>
+        <Text style={styles.tweet_text}>{tweet_text}</Text>
       </View>
     </View>
   );
@@ -18,16 +15,16 @@ export default function RecentTweet() {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: 'gray',
     borderRadius: 10,
     justifyContent: 'center',
     paddingHorizontal: 16,
     paddingVertical: 16,
+    backgroundColor: '#fff',
+    elevation: 1,
   },
   tweet_text: {
-    fontSize: 15,
-    color: 'white',
+    fontSize: 16,
+    lineHeight: 24,
     textAlign: 'left',
-    // fontStyle: 'italic',
   },
 });
