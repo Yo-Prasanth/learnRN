@@ -1,30 +1,42 @@
-import React from 'react';
-import { Image, StyleSheet, Text, View } from 'react-native';
+import React, {useEffect, useState} from 'react';
+import {Image, StyleSheet, Text, View} from 'react-native';
+import {profile_images} from '../constants/profile_images';
 import AgeCounter from './molecules/AgeCounter';
 
 const IntroCard = () => {
+  //   function to change images
+  //   const [imageIndex, setImageIndex] = useState(0);
+
+  //   useEffect(() => {
+  //     setInterval(() => {
+  //       if (imageIndex < profile_images.length - 1) {
+  //         setImageIndex(pre => pre + 1);
+  //       }
+  //     }, 2000);
+  //   }, []);
+
   return (
     <View style={style.container}>
       <Image
         source={{
-          uri: 'https://images.plex.tv/photo?size=large-1920&scale=1&url=https%3A%2F%2Fmetadata-static.plex.tv%2F4%2Fpeople%2F448193a532ff75054db24713f8f2be2d.jpg',
+          uri: profile_images[5],
         }}
         style={style.image}
       />
 
       <View style={style.detailsContainer}>
-        <Text style={{fontSize: 20, color: 'black'}}>Preity Mukhundhan</Text>
+        <Text style={style.name}>Preity Mukhundhan</Text>
         <View style={style.description_block}>
-          <Text style={{fontSize: 12, color: 'black'}}>
-            Indian Actress and Model
-          </Text>
+          <Text style={style.description}>Indian Actress and Model</Text>
           <View style={style.bio_button}>
-            <Text style={{fontSize: 10, color: 'blue', flexGrow: 1}}>Bio</Text>
+            <Text style={{fontSize: 12, color: 'blue', marginRight: 8}}>
+              Bio
+            </Text>
             <Image
               source={{
                 uri: 'https://image.spreadshirtmedia.net/image-server/v1/products/T1459A839PA4459PT28D315780325W10000H6676/views/1,width=550,height=550,appearanceId=839,backgroundColor=F2F2F2/arrow-icon-right-direction-symbol-sign-sticker.jpg',
               }}
-              style={{height: 10, width: 15, borderWidth: 3, borderRadius: 20}}
+              style={{height: 12, width: 12, borderWidth: 3, borderRadius: 20}}
             />
           </View>
         </View>
@@ -42,7 +54,7 @@ const style = StyleSheet.create({
   container: {
     flexDirection: 'row',
     backgroundColor: '#fff',
-    padding: 8,
+    padding: 16,
     elevation: 1,
     borderRadius: 16,
   },
@@ -66,8 +78,17 @@ const style = StyleSheet.create({
 
   bio_button: {
     flexDirection: 'row',
-    width: 64,
     alignItems: 'center',
-    paddingRight: 5,
+  },
+
+  name: {
+    fontSize: 20,
+    color: '#262545',
+    fontWeight: '700',
+  },
+
+  description: {
+    fontSize: 12,
+    color: '#262545',
   },
 });
