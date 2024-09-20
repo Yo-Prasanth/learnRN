@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import {Image, StyleSheet, Text, View} from 'react-native';
 import {profile_images} from '../constants/profile_images';
 import AgeCounter from './molecules/AgeCounter';
@@ -26,10 +26,11 @@ const IntroCard = () => {
 
       <View style={style.detailsContainer}>
         <Text style={style.name}>Preity Mukhundhan</Text>
+        <View style={{height: 4}} />
         <View style={style.description_block}>
           <Text style={style.description}>Indian Actress and Model</Text>
-          <View style={style.bio_button}>
-            <Text style={{fontSize: 12, color: 'blue', marginRight: 8}}>
+          {/* <View style={style.bio_button}>
+            <Text style={{fontSize: 12, color: '#fff', marginRight: 8}}>
               Bio
             </Text>
             <Image
@@ -38,7 +39,7 @@ const IntroCard = () => {
               }}
               style={{height: 12, width: 12, borderWidth: 3, borderRadius: 20}}
             />
-          </View>
+          </View> */}
         </View>
         {/* to push to the bottom */}
         <View style={{flexGrow: 1}} />
@@ -79,16 +80,21 @@ const style = StyleSheet.create({
   bio_button: {
     flexDirection: 'row',
     alignItems: 'center',
+    backgroundColor: '#D7A1F9',
+    borderRadius: 4,
+    paddingHorizontal: 8,
+    paddingVertical: 2,
   },
 
   name: {
     fontSize: 20,
     color: '#262545',
-    fontWeight: '700',
+    fontFamily: 'Epilogue-SemiBold',
   },
 
   description: {
     fontSize: 12,
     color: '#262545',
+    fontFamily: 'Epilogue-Medium',
   },
 });

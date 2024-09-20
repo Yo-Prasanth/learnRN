@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import {StyleSheet, Text, View} from 'react-native';
 
 export default function SectionTitle({title}) {
   return (
@@ -15,9 +15,9 @@ const styles = StyleSheet.create({
     paddingBottom: 8,
   },
   title: {
-    fontSize: 20,
+    fontSize: 18,
     color: 'black',
+    fontFamily: 'Epilogue-Medium',
     marginLeft: 8,
-    fontWeight: '800',
   },
 });

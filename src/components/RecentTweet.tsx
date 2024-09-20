@@ -25,6 +25,7 @@ const styles = StyleSheet.create({
   tweet_text: {
     fontSize: 16,
     lineHeight: 24,
-    textAlign: 'left',
+    fontFamily: 'Epilogue-Medium',
+    color: '#000',
   },
 });

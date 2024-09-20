@@ -25,11 +25,11 @@ const styles = StyleSheet.create({
   number: {
     fontSize: 30,
     color: '#fff',
-    fontWeight: '700',
+    fontFamily: 'Epilogue-ExtraLight',
   },
   text: {
     fontSize: 12,
-    fontWeight: '400',
+    fontFamily: 'Epilogue-Regular',
     color: '#262545',
     textAlign: 'center',
   },

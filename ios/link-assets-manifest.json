@@ -1,0 +1,41 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Epilogue-Black.ttf",
+      "sha1": "c597fa2b227b44abde91cf99b9e3950aa7289259"
+    },
+    {
+      "path": "src/assets/fonts/Epilogue-Bold.ttf",
+      "sha1": "23111a5acfa4f4b359ceccf957a272782e149d9c"
+    },
+    {
+      "path": "src/assets/fonts/Epilogue-ExtraBold.ttf",
+      "sha1": "1276a049dc93e7b286f47adf9d7ab442f76912a1"
+    },
+    {
+      "path": "src/assets/fonts/Epilogue-ExtraLight.ttf",
+      "sha1": "a78cd2511471420e49cd36f8edbb0619c034d224"
+    },
+    {
+      "path": "src/assets/fonts/Epilogue-Light.ttf",
+      "sha1": "30f7a327a71987cbe9fffacc301b852f9fb274b1"
+    },
+    {
+      "path": "src/assets/fonts/Epilogue-Medium.ttf",
+      "sha1": "3340c0d1637ddeb9a650cb8cfc1a44978f69a7ac"
+    },
+    {
+      "path": "src/assets/fonts/Epilogue-Regular.ttf",
+      "sha1": "1b6828131f6987e345749936c08dd937159820a1"
+    },
+    {
+      "path": "src/assets/fonts/Epilogue-SemiBold.ttf",
+      "sha1": "3fcab7b4a463f298465ba933ade8959373ffcc2d"
+    },
+    {
+      "path": "src/assets/fonts/Epilogue-Thin.ttf",
+      "sha1": "1aada7a46c186da9cba1ae1d16f19061a0732206"
+    }
+  ]
+}
