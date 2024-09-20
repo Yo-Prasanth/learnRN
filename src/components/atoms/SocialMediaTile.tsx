@@ -1,26 +1,19 @@
+import React from 'react';
 import {
   Image,
   Linking,
   StyleSheet,
-  Text,
-  TouchableOpacity,
-  View,
+  TouchableOpacity
 } from 'react-native';
-import React from 'react';
 
-export default function SocialMediaTile() {
+export default function SocialMediaTile({image}) {
   return (
     <TouchableOpacity
       style={styles.container}
       onPress={() =>
         Linking.openURL('https://www.instagram.com/preity_mukhundhan/?hl=en')
       }>
-      <Image
-        source={{
-          uri: 'https://cdn.logojoy.com/wp-content/uploads/20230922110325/facebook-2021-logo-600x319.png',
-        }}
-        style={styles.image}
-      />
+      <Image source={image} style={styles.image} />
     </TouchableOpacity>
   );
 }
@@ -38,7 +31,7 @@ const styles = StyleSheet.create({
   },
 
   image: {
-    width: 35,
-    height: 35,
+    width: 40,
+    height: 40,
   },
 });

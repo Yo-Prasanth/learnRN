@@ -1,6 +1,8 @@
 export const projects = [
   {
     title: 'Kannappa',
+    poster_url:
+      'https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Kannappa_film_poster.jpg/220px-Kannappa_film_poster.jpg',
     director: 'Mukesh Kumar Singh',
     writers: ['Vishnu Manchu', 'Gopalakrishna Paruchuri', 'G. Eshwar Reddy'],
     stars: ['Vishnu Manchu', 'Mohanlal', 'Prabhas'],
@@ -14,6 +16,8 @@ export const projects = [
   },
   {
     title: 'Star',
+    poster_url:
+      'https://m.media-amazon.com/images/M/MV5BZDFlYmRkOGItYTA0MC00ZjA0LWE2NTQtZjc3MTViZGFhZDNkXkEyXkFqcGdeQXVyMTU0ODI1NTA2._V1_.jpg',
     director: 'Elan',
     writers: ['Elan', 'Thava Guru'],
     stars: ['Kavin Lal', 'Aditi Sudhir Pohankar', 'Preity Mukhundhan'],
@@ -35,6 +39,8 @@ export const projects = [
   },
   {
     title: 'Om Bheem Bush',
+    poster_url:
+      'https://upload.wikimedia.org/wikipedia/en/9/97/Om_Bheem_Bush_poster.jpg',
     director: 'Sree Harsha Konuganti',
     writers: ['Manohar Bollam', 'Sree Harsha Konuganti'],
     stars: [
@@ -54,6 +60,8 @@ export const projects = [
   },
   {
     title: 'Maine Pyar Kiya',
+    poster_url:
+      'https://english.mathrubhumi.com/image/contentid/policy:1.9861045:1725116320/WhatsApp%20Image%202024-08-31%20at%2018.54.49.jpeg?$p=0046607&f=4x3&w=1080&q=0.8',
     director: 'Faizal Faziludeen',
     editing: 'Kannan Mohan',
     stars: ['Preity Mukhundhan'],

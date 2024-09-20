@@ -1,17 +1,18 @@
 import React from 'react';
-import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import {Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 
 export default function ProjectsTile({movie}) {
   return (
     <TouchableOpacity style={styles.container}>
       <Image
         source={{
-          uri: 'https://m.media-amazon.com/images/M/MV5BZDFlYmRkOGItYTA0MC00ZjA0LWE2NTQtZjc3MTViZGFhZDNkXkEyXkFqcGdeQXVyMTU0ODI1NTA2._V1_.jpg',
+          uri: movie?.poster_url,
         }}
         style={styles.image}
       />
-      <View style={{justifyContent: 'center'}}>
+      <View style={{justifyContent: 'center', marginLeft: 16}}>
         <Text style={styles.title}>{movie.title}</Text>
+        <View style={{height: 4}} />
         <Text style={styles.year}>{movie.year}</Text>
       </View>
     </TouchableOpacity>
@@ -29,17 +30,16 @@ const styles = StyleSheet.create({
   },
 
   image: {
-    width: 64,
-    height: 64,
+    width: 72,
+    height: 72,
     borderRadius: 5,
-    borderColor: 'yellow',
     borderWidth: 1,
   },
 
   title: {
     color: 'black',
-    fontSize: 15,
-    paddingStart: 20,
+    fontSize: 16,
+    fontFamily: 'Epilogue-Medium',
   },
-  year: {color: 'black', fontSize: 15, paddingStart: 20},
+  year: {color: 'black', fontFamily: 'Epilogue-Regular'},
 });

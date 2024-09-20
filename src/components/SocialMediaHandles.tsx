@@ -8,9 +8,9 @@ export default function SocialMediaHandles() {
     <View>
       <SectionTitle title={'Follow me on'} />
       <View style={styles.container}>
-        <SocialMediaTile />
-        <SocialMediaTile />
-        <SocialMediaTile />
+        <SocialMediaTile image={require('../assets/icons/instagram.png')} />
+        <SocialMediaTile image={require('../assets/icons/twitter.png')} />
+        <SocialMediaTile image={require('../assets/icons/facebook.png')} />
       </View>
     </View>
   );
