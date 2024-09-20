@@ -8,9 +8,10 @@ export default function SocialMediaHandles() {
     <View>
       <SectionTitle title={'Follow me on'} />
       <View style={styles.container}>
-        <SocialMediaTile />
-        <SocialMediaTile />
-        <SocialMediaTile />
+        <SocialMediaTile url={"https://www.instagram.com/preity_mukhundhan/?hl=en"} imageUrl={ 'https://cdn.logojoy.com/wp-content/uploads/20230922110325/facebook-2021-logo-600x319.png'} />
+        <SocialMediaTile url={"https://www.instagram.com/preity_mukhundhan/?hl=en"} imageUrl={ 'https://cdn.logojoy.com/wp-content/uploads/20230922110325/facebook-2021-logo-600x319.png'} />
+        <SocialMediaTile url={"https://www.instagram.com/preity_mukhundhan/?hl=en"} imageUrl={ 'https://cdn.logojoy.com/wp-content/uploads/20230922110325/facebook-2021-logo-600x319.png'} />
+        
       </View>
     </View>
   );
@@ -21,4 +22,4 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     flexDirection: 'row',
   },
-});
+})

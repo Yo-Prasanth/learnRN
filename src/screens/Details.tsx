@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Image, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import React from 'react';
+import { Text, View } from 'react-native';
 
 
 

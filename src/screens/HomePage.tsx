@@ -15,8 +15,8 @@ const HomePage = () => {
       showsVerticalScrollIndicator={false}
       contentContainerStyle={{
         backgroundColor: '#F3F4F6',
-        paddingTop: 48,
-        paddingHorizontal: 8,
+        paddingTop: 40,
+        paddingHorizontal: 5,
       }}>
       <IntroCard />
       <View style={{height: 24}} />

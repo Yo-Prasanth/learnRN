@@ -1,6 +1,6 @@
-import React, {useEffect, useState} from 'react';
-import {Image, StyleSheet, Text, View} from 'react-native';
-import {profile_images} from '../constants/profile_images';
+import React from 'react';
+import { Image, StyleSheet, Text, View } from 'react-native';
+import { profile_images } from '../constants/profile_images';
 import AgeCounter from './molecules/AgeCounter';
 
 const IntroCard = () => {
@@ -29,7 +29,7 @@ const IntroCard = () => {
         <View style={style.description_block}>
           <Text style={style.description}>Indian Actress and Model</Text>
           <View style={style.bio_button}>
-            <Text style={{fontSize: 12, color: 'blue', marginRight: 8}}>
+            <Text style={{fontSize: 12, color: 'blue', marginRight: 8 }}>
               Bio
             </Text>
             <Image
@@ -78,7 +78,7 @@ const style = StyleSheet.create({
 
   bio_button: {
     flexDirection: 'row',
-    alignItems: 'center',
+    alignItems: 'center'
   },
 
   name: {
@@ -88,7 +88,8 @@ const style = StyleSheet.create({
   },
 
   description: {
-    fontSize: 12,
+    fontSize: 10,
     color: '#262545',
+    flex:1
   },
 });
