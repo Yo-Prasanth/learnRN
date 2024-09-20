@@ -10,7 +10,7 @@ export default function SocialMediaHandles() {
       <View style={styles.container}>
         <SocialMediaTile image={require('../assets/icons/instagram.png')} />
         <SocialMediaTile image={require('../assets/icons/twitter.png')} />
-        <SocialMediaTile image={require('../assets/icons/facebook.png')} />
+        <SocialMediaTile image={require('../assets/icons/youtube.png')} />
         <View
           style={{
             backgroundColor: '#9ea3fe',
@@ -23,11 +23,11 @@ export default function SocialMediaHandles() {
           }}>
           <Text
             style={{
-              fontFamily: 'Epilogue-Medium',
+              fontFamily: 'TT Norms Pro Medium',
               fontSize: 16,
               color: '#fff',
             }}>
-            Bio
+            Who am I?
           </Text>
         </View>
       </View>

@@ -12,12 +12,12 @@ export default function SectionTitle({title}) {
 const styles = StyleSheet.create({
   container: {
     paddingTop: 16,
-    paddingBottom: 8,
+    paddingBottom: 12,
   },
   title: {
     fontSize: 18,
     color: 'black',
-    fontFamily: 'Epilogue-Medium',
+    fontFamily: 'TT Norms Pro Bold',
     marginLeft: 8,
   },
 });

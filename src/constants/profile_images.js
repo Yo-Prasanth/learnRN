@@ -1,17 +1,3 @@
 export const profile_images = [
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI_nlzktnlzrvA7iEr75cgyMNpq6jZydEpeg&sF',
-  'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTzVSdRKFZJ-jEt4DVCLLLZoh2c7cLu6yOMNbPP7w6RJsZ-kfFl',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqT23AMUA9QlQEdajOM-q16FsJpoCttFnh88X9hWwEzBRTodVyxl_ZB6-qcQp1_xEQI6M&usqp=CAU',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCrtfy8mx2unHXUeA42TzoyDJ7ViR1VpWOQUjVfyDaI3b9JbZDO2qCbf7ybi46ZnGrSX8&usqp=CAU',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL_Inxxp4-JWz8-5HRu2IbfLVfUPTndDO0PQ&s',
-  'https://img-mm.manoramaonline.com/content/dam/mm/mo/web-stories/movies/images/2024/5/22/preity-mukhundhan-3.jpg',
-  'https://images.plex.tv/photo?size=large-1920&scale=1&url=https%3A%2F%2Fmetadata-static.plex.tv%2F4%2Fpeople%2F448193a532ff75054db24713f8f2be2d.jpg',
-  'https://i.pinimg.com/736x/05/cb/ec/05cbec225e937f16155b756750067c45.jpg',
-  'https://img-mm.manoramaonline.com/content/dam/mm/mo/web-stories/movies/images/2024/5/22/preity-mukhundhan-2.jpg',
-  'https://img-mm.manoramaonline.com/content/dam/mm/mo/web-stories/movies/images/2024/5/22/preity-mukhundhan-8.jpg',
-  'https://static.toiimg.com/photo/110466911/110466911.jpg',
-  'https://i.pinimg.com/564x/fb/4b/7c/fb4b7c7f2d699de1603280b639b799dc.jpg',
-  'https://static.toiimg.com/thumb/111341057/111341057.jpg?height=746&width=420&resizemode=76&imgsize=38954',
-  'https://static.toiimg.com/thumb/msid-111341073,imgsize-74548,width-900,height-1200,resizemode-6/111341073.jpg',
-  'https://pbs.twimg.com/tweet_video_thumb/GPyJhMMXIAATm-6.jpg',
+  'https://media.licdn.com/dms/image/v2/C560BAQFzN9ZEKla-Bw/company-logo_200_200/company-logo_200_200/0/1630651668061/askraghulan_logo?e=2147483647&v=beta&t=zfmVT-0HZmrsFy584rIrqlClj-QkfyGW7xnwZrkYTWw',
 ];

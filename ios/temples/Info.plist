@@ -58,6 +58,15 @@
 		<string>Epilogue-Regular.ttf</string>
 		<string>Epilogue-SemiBold.ttf</string>
 		<string>Epilogue-Thin.ttf</string>
+		<string>TT Norms Pro Black.otf</string>
+		<string>TT Norms Pro Bold.otf</string>
+		<string>TT Norms Pro ExtraBlack.otf</string>
+		<string>TT Norms Pro ExtraBold.otf</string>
+		<string>TT Norms Pro ExtraLight.otf</string>
+		<string>TT Norms Pro Light.otf</string>
+		<string>TT Norms Pro Medium.otf</string>
+		<string>TT Norms Pro Regular.otf</string>
+		<string>TT Norms Pro Thin.otf</string>
 	</array>
 </dict>
 </plist>

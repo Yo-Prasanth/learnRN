@@ -1,30 +1,50 @@
 // HomeScreen.js
-import React from 'react';
-import {ScrollView, View} from 'react-native';
+import React, {useState} from 'react';
+import {Platform, ScrollView, StatusBar, View} from 'react-native';
 import IntroCard from '../components/IntroCard';
 import Projects from '../components/Projects';
 import RecentTweet from '../components/RecentTweet';
+import RecentVideo from '../components/molecules/RecentVideo';
+import TodayQuote from '../components/molecules/TodayQuote';
 import SocialMediaHandles from '../components/SocialMediaHandles';
-import MoreInfo from '../components/atoms/MoreInfo';
 
 const tweet_text =
   "Let's the countdown begins! I am a beyound excited for the new movie coming out soon. Get ready to be amazed";
 
 const HomePage = () => {
+  const [info, setInfo] = useState(false);
+
   return (
     <ScrollView
       showsVerticalScrollIndicator={false}
       contentContainerStyle={{
         backgroundColor: '#F3F4F6',
-        paddingTop: 48,
+        paddingTop: Platform.OS === 'android' ? 48 : 96,
         paddingHorizontal: 8,
       }}>
-      <IntroCard />
-      <View style={{height: 24}} />
+      {/* <StatusBar backgroundColor={'#fff'} /> */}
+      <IntroCard setInfo={setInfo} />
+
       <View style={{paddingHorizontal: 8}}>
-        <RecentTweet tweet_text={tweet_text} />
+        {info && (
+          <>
+            <View style={{height: 24}} />
+            <SocialMediaHandles />
+          </>
+        )}
         <View style={{height: 24}} />
-        <SocialMediaHandles />
+        <TodayQuote
+          tweet_text={
+            'Each morning is a new opportunity to build, create, and rise 💪🏽'
+          }
+        />
+        <View style={{height: 24}} />
+        <RecentVideo />
+        <View style={{height: 24}} />
+
+        <RecentTweet
+          tweet_text={'We launched a new bag today, have a look guys'}
+        />
         <View style={{height: 24}} />
         <Projects />
       </View>

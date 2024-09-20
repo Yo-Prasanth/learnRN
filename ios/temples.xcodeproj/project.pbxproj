@@ -24,6 +24,15 @@
 		A3921FCAABCF4777B7465DC5 /* Epilogue-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12874FACEEB64917ACD35D91 /* Epilogue-Thin.ttf */; };
 		B80FED19BA984A5C80DE4163 /* Epilogue-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 787693B0974C4FADB7DC470E /* Epilogue-Medium.ttf */; };
 		F7540B6C63BB438CBD941EE3 /* Epilogue-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B9E8E97C48847338E835825 /* Epilogue-Light.ttf */; };
+		54B93DC641D24CFFA1107F23 /* TT Norms Pro Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 646CB23FDBD74AC09F1B035A /* TT Norms Pro Black.otf */; };
+		C7596F3268224562B0E56D89 /* TT Norms Pro Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6BC47BDBF97B4B6DAA7946A3 /* TT Norms Pro Bold.otf */; };
+		25C02792B9A5460AB766850C /* TT Norms Pro ExtraBlack.otf in Resources */ = {isa = PBXBuildFile; fileRef = B3EBD98539A4458FB8855DA9 /* TT Norms Pro ExtraBlack.otf */; };
+		E81F55DD051141DB91199CF5 /* TT Norms Pro ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C06663FC55234FCB96FC7CDE /* TT Norms Pro ExtraBold.otf */; };
+		C99AB0AB953C4E4DA550005A /* TT Norms Pro ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 50EDB881AE524412A0BFDD20 /* TT Norms Pro ExtraLight.otf */; };
+		500B9A65E6D64B808EBF9D15 /* TT Norms Pro Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2F50223BAD974797B04982E7 /* TT Norms Pro Light.otf */; };
+		BD4AD61A455343B5A8A970D4 /* TT Norms Pro Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 472DA78CCF134CB7883442A0 /* TT Norms Pro Medium.otf */; };
+		D079D318835546D2B54935B6 /* TT Norms Pro Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = D9A48D36B2AC4D74BDF4DBF3 /* TT Norms Pro Regular.otf */; };
+		D22E78447EB448709F9EBE43 /* TT Norms Pro Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 631C887A5315428980A2F6E9 /* TT Norms Pro Thin.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +74,15 @@
 		89C6BE57DB24E9ADA2F236DE /* Pods-temples-templesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-temples-templesTests.release.xcconfig"; path = "Target Support Files/Pods-temples-templesTests/Pods-temples-templesTests.release.xcconfig"; sourceTree = "<group>"; };
 		AFF678018835486290373959 /* Epilogue-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Epilogue-ExtraBold.ttf"; path = "../src/assets/fonts/Epilogue-ExtraBold.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		646CB23FDBD74AC09F1B035A /* TT Norms Pro Black.otf */ = {isa = PBXFileReference; name = "TT Norms Pro Black.otf"; path = "../src/assets/fonts/TT Norms Pro Black.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6BC47BDBF97B4B6DAA7946A3 /* TT Norms Pro Bold.otf */ = {isa = PBXFileReference; name = "TT Norms Pro Bold.otf"; path = "../src/assets/fonts/TT Norms Pro Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B3EBD98539A4458FB8855DA9 /* TT Norms Pro ExtraBlack.otf */ = {isa = PBXFileReference; name = "TT Norms Pro ExtraBlack.otf"; path = "../src/assets/fonts/TT Norms Pro ExtraBlack.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C06663FC55234FCB96FC7CDE /* TT Norms Pro ExtraBold.otf */ = {isa = PBXFileReference; name = "TT Norms Pro ExtraBold.otf"; path = "../src/assets/fonts/TT Norms Pro ExtraBold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		50EDB881AE524412A0BFDD20 /* TT Norms Pro ExtraLight.otf */ = {isa = PBXFileReference; name = "TT Norms Pro ExtraLight.otf"; path = "../src/assets/fonts/TT Norms Pro ExtraLight.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2F50223BAD974797B04982E7 /* TT Norms Pro Light.otf */ = {isa = PBXFileReference; name = "TT Norms Pro Light.otf"; path = "../src/assets/fonts/TT Norms Pro Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		472DA78CCF134CB7883442A0 /* TT Norms Pro Medium.otf */ = {isa = PBXFileReference; name = "TT Norms Pro Medium.otf"; path = "../src/assets/fonts/TT Norms Pro Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D9A48D36B2AC4D74BDF4DBF3 /* TT Norms Pro Regular.otf */ = {isa = PBXFileReference; name = "TT Norms Pro Regular.otf"; path = "../src/assets/fonts/TT Norms Pro Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		631C887A5315428980A2F6E9 /* TT Norms Pro Thin.otf */ = {isa = PBXFileReference; name = "TT Norms Pro Thin.otf"; path = "../src/assets/fonts/TT Norms Pro Thin.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +159,15 @@
 				7A056EAFA9E24A15894AE8C2 /* Epilogue-Regular.ttf */,
 				0C2FCDA03AA54D9DB4DC022C /* Epilogue-SemiBold.ttf */,
 				12874FACEEB64917ACD35D91 /* Epilogue-Thin.ttf */,
+				646CB23FDBD74AC09F1B035A /* TT Norms Pro Black.otf */,
+				6BC47BDBF97B4B6DAA7946A3 /* TT Norms Pro Bold.otf */,
+				B3EBD98539A4458FB8855DA9 /* TT Norms Pro ExtraBlack.otf */,
+				C06663FC55234FCB96FC7CDE /* TT Norms Pro ExtraBold.otf */,
+				50EDB881AE524412A0BFDD20 /* TT Norms Pro ExtraLight.otf */,
+				2F50223BAD974797B04982E7 /* TT Norms Pro Light.otf */,
+				472DA78CCF134CB7883442A0 /* TT Norms Pro Medium.otf */,
+				D9A48D36B2AC4D74BDF4DBF3 /* TT Norms Pro Regular.otf */,
+				631C887A5315428980A2F6E9 /* TT Norms Pro Thin.otf */,
 			);
 			name = Resources;
 			path = "";
@@ -294,6 +321,15 @@
 				093CCD1621524BE98C7EAC4B /* Epilogue-SemiBold.ttf in Resources */,
 				A3921FCAABCF4777B7465DC5 /* Epilogue-Thin.ttf in Resources */,
 				89DC60971FAD16665C9D0965 /* PrivacyInfo.xcprivacy in Resources */,
+				54B93DC641D24CFFA1107F23 /* TT Norms Pro Black.otf in Resources */,
+				C7596F3268224562B0E56D89 /* TT Norms Pro Bold.otf in Resources */,
+				25C02792B9A5460AB766850C /* TT Norms Pro ExtraBlack.otf in Resources */,
+				E81F55DD051141DB91199CF5 /* TT Norms Pro ExtraBold.otf in Resources */,
+				C99AB0AB953C4E4DA550005A /* TT Norms Pro ExtraLight.otf in Resources */,
+				500B9A65E6D64B808EBF9D15 /* TT Norms Pro Light.otf in Resources */,
+				BD4AD61A455343B5A8A970D4 /* TT Norms Pro Medium.otf in Resources */,
+				D079D318835546D2B54935B6 /* TT Norms Pro Regular.otf in Resources */,
+				D22E78447EB448709F9EBE43 /* TT Norms Pro Thin.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,9 +1,9 @@
 import React from 'react';
-import {Image, StyleSheet, Text, View} from 'react-native';
+import {Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import {profile_images} from '../constants/profile_images';
 import AgeCounter from './molecules/AgeCounter';
 
-const IntroCard = () => {
+const IntroCard = ({setInfo}) => {
   //   function to change images
   //   const [imageIndex, setImageIndex] = useState(0);
 
@@ -19,32 +19,33 @@ const IntroCard = () => {
     <View style={style.container}>
       <Image
         source={{
-          uri: profile_images[5],
+          uri: profile_images[0],
         }}
         style={style.image}
       />
 
       <View style={style.detailsContainer}>
-        <Text style={style.name}>Preity Mukhundhan</Text>
+        <Text style={style.name}>
+          <Text style={{color: '#c5c3c6'}}>ASK</Text> RAGHULAN
+        </Text>
         <View style={{height: 4}} />
         <View style={style.description_block}>
-          <Text style={style.description}>Indian Actress and Model</Text>
-          {/* <View style={style.bio_button}>
-            <Text style={{fontSize: 12, color: '#fff', marginRight: 8}}>
-              Bio
-            </Text>
-            <Image
-              source={{
-                uri: 'https://image.spreadshirtmedia.net/image-server/v1/products/T1459A839PA4459PT28D315780325W10000H6676/views/1,width=550,height=550,appearanceId=839,backgroundColor=F2F2F2/arrow-icon-right-direction-symbol-sign-sticker.jpg',
-              }}
-              style={{height: 12, width: 12, borderWidth: 3, borderRadius: 20}}
-            />
-          </View> */}
+          <Text style={style.description}>Entrepreneur & Youtuber</Text>
         </View>
-        {/* to push to the bottom */}
         <View style={{flexGrow: 1}} />
         <AgeCounter />
       </View>
+      <TouchableOpacity
+        onPress={() => setInfo(info => !info)}
+        style={{position: 'absolute', bottom: 12, left: 12}}>
+        <Image
+          source={require('../assets/icons/info.png')}
+          style={{
+            height: 22,
+            width: 22,
+          }}
+        />
+      </TouchableOpacity>
     </View>
   );
 };
@@ -63,7 +64,7 @@ const style = StyleSheet.create({
   image: {
     height: 150,
     width: 150,
-    borderWidth: 3,
+
     borderRadius: 8,
     marginRight: 8,
   },
@@ -89,7 +90,7 @@ const style = StyleSheet.create({
   name: {
     fontSize: 20,
     color: '#262545',
-    fontFamily: 'Epilogue-SemiBold',
+    fontFamily: 'TT Norms Pro ExtraBold',
   },
 
   description: {

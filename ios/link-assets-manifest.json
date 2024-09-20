@@ -36,6 +36,42 @@
     {
       "path": "src/assets/fonts/Epilogue-Thin.ttf",
       "sha1": "1aada7a46c186da9cba1ae1d16f19061a0732206"
+    },
+    {
+      "path": "src/assets/fonts/TT Norms Pro Black.otf",
+      "sha1": "fff4b4fcace1a57f8201d0c90129ac7f3a4d427f"
+    },
+    {
+      "path": "src/assets/fonts/TT Norms Pro Bold.otf",
+      "sha1": "c1e809b67ea24435ff12b19ef9820c270eac803c"
+    },
+    {
+      "path": "src/assets/fonts/TT Norms Pro ExtraBlack.otf",
+      "sha1": "976c7e8a418fd955c1dcd9d4feb81d6a4e273c7c"
+    },
+    {
+      "path": "src/assets/fonts/TT Norms Pro ExtraBold.otf",
+      "sha1": "26545c8d9fb95666a9e0b82bf92fe9b0a79de398"
+    },
+    {
+      "path": "src/assets/fonts/TT Norms Pro ExtraLight.otf",
+      "sha1": "82fdcf527200f31d059fc95b82f2ca59ba7148b2"
+    },
+    {
+      "path": "src/assets/fonts/TT Norms Pro Light.otf",
+      "sha1": "afa3c0d1749483fddf53f3dda9b210fc581c1b81"
+    },
+    {
+      "path": "src/assets/fonts/TT Norms Pro Medium.otf",
+      "sha1": "0e724c0fc1d252a900aa9202fd3d6767c694abe6"
+    },
+    {
+      "path": "src/assets/fonts/TT Norms Pro Regular.otf",
+      "sha1": "44538467d44467ae5bcd2ae2a5154f892705b1c1"
+    },
+    {
+      "path": "src/assets/fonts/TT Norms Pro Thin.otf",
+      "sha1": "14bd1518ef803059eefc55b571ab095863a59fed"
     }
   ]
 }

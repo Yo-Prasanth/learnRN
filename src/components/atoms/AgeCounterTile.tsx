@@ -1,6 +1,6 @@
 import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
-import { widthRatio } from '../../constants/dimentions';
+import {widthRatio} from '../../constants/dimentions';
 
 export default function AgeCounterTile({number, text}) {
   return (
@@ -20,19 +20,19 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     justifyContent: 'center',
     alignItems: 'center',
-    width: 60*widthRatio,
-    height: 60*widthRatio,
-    
+    // width: 60*widthRatio,
+    flexGrow: 1,
+    flex: 1,
+    height: 60 * widthRatio,
   },
   number: {
     fontSize: 30,
     color: '#fff',
-    fontFamily: 'Epilogue-ExtraLight',
+    fontFamily: 'TT Norms Pro Light',
   },
   text: {
     fontSize: 12,
     fontFamily: 'Epilogue-Regular',
     color: '#262545',
-    textAlign: 'center',
   },
 });
