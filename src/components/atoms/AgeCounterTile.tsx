@@ -1,5 +1,6 @@
 import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
+import { widthRatio } from '../../constants/dimentions';
 
 export default function AgeCounterTile({number, text}) {
   return (
@@ -19,8 +20,9 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     justifyContent: 'center',
     alignItems: 'center',
-    width: 64,
-    height: 64,
+    width: 60*widthRatio,
+    height: 60*widthRatio,
+    
   },
   number: {
     fontSize: 30,
