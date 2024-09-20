@@ -1,19 +1,23 @@
 import React, { useState } from 'react';
 import { Image, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { widthRatio } from '../constants/dimentions';
 
 
 
 
 const Details = ({route}) =>{
 
-    const data = route.params;
+    console.log(widthRatio,"widthRatio")
+
+    const jkjjkj = route.params;
 
 
-    console.log(data)
+    console.log(jkjjkj.movieDetails)
 
 
     return(<View style={{backgroundColor:"brown",flex:1}}>
-        <Text>{data?.name}</Text>
+
+        <Text>{jkjjkj.movieDetails.title}</Text>
     </View>)
 }
 

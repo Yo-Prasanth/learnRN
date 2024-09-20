@@ -1,18 +1,21 @@
+import { useNavigation } from '@react-navigation/native';
 import React from 'react';
-import {Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
+import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
-export default function ProjectsTile({movie}) {
+export default function ProjectsTile({ movie }) {
+
+  const navigation = useNavigation();
   return (
-    <TouchableOpacity style={styles.container}>
+    <TouchableOpacity style={styles.container} onPress={()=>navigation.navigate("Details",{movieDetails:movie}) }>
       <Image
         source={{
           uri: movie?.poster_url,
         }}
         style={styles.image}
       />
-      <View style={{justifyContent: 'center', marginLeft: 16}}>
+      <View style={{ justifyContent: 'center', marginLeft: 16 }}>
         <Text style={styles.title}>{movie.title}</Text>
-        <View style={{height: 4}} />
+        <View style={{ height: 4 }} />
         <Text style={styles.year}>{movie.year}</Text>
       </View>
     </TouchableOpacity>
@@ -41,5 +44,5 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontFamily: 'Epilogue-Medium',
   },
-  year: {color: 'black', fontFamily: 'Epilogue-Regular'},
+  year: { color: 'black', fontFamily: 'Epilogue-Regular' },
 });
