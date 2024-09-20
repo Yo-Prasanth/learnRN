@@ -9,6 +9,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import Details from './src/screens/Details';
 import HomePage from './src/screens/HomePage';
+import Bio from './src/screens/Bio';
 
 const Stack = createNativeStackNavigator();
 
@@ -29,6 +30,7 @@ const Nav = () => {
           component={HomePage}
           options={{title: ''}}
         />
+        <Stack.Screen name="Bio" component={Bio} options={{title: ''}} />
       </Stack.Navigator>
     </NavigationContainer>
   );
