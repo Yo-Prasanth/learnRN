@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet, View} from 'react-native';
+import {StyleSheet, Text, View} from 'react-native';
 import SectionTitle from './atoms/SectionTitle';
 import SocialMediaTile from './atoms/SocialMediaTile';
 
@@ -11,6 +11,25 @@ export default function SocialMediaHandles() {
         <SocialMediaTile image={require('../assets/icons/instagram.png')} />
         <SocialMediaTile image={require('../assets/icons/twitter.png')} />
         <SocialMediaTile image={require('../assets/icons/facebook.png')} />
+        <View
+          style={{
+            backgroundColor: '#9ea3fe',
+            height: 64,
+            flexGrow: 1,
+            borderRadius: 8,
+            justifyContent: 'center',
+            alignItems: 'center',
+            elevation: 1,
+          }}>
+          <Text
+            style={{
+              fontFamily: 'Epilogue-Medium',
+              fontSize: 16,
+              color: '#fff',
+            }}>
+            Bio
+          </Text>
+        </View>
       </View>
     </View>
   );

@@ -5,6 +5,7 @@ import IntroCard from '../components/IntroCard';
 import Projects from '../components/Projects';
 import RecentTweet from '../components/RecentTweet';
 import SocialMediaHandles from '../components/SocialMediaHandles';
+import MoreInfo from '../components/atoms/MoreInfo';
 
 const tweet_text =
   "Let's the countdown begins! I am a beyound excited for the new movie coming out soon. Get ready to be amazed";

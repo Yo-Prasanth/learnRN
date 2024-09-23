@@ -1,7 +1,15 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import { widthRatio } from '../constants/dimentions';
 
+import React, {useState} from 'react';
+import {
+  Image,
+  ScrollView,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  useWindowDimensions,
+  View,
+} from 'react-native';
+import {widthRatio} from '../constants/dimentions';
 
 
 
