@@ -4,8 +4,8 @@ export const projects = [
     poster_url:
       'https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Kannappa_film_poster.jpg/220px-Kannappa_film_poster.jpg',
     director: 'Mukesh Kumar Singh',
-    writers: ['Vishnu Manchu ,', 'Gopalakrishna Paruchuri ,', 'G. Eshwar Reddy ,'],
-    stars: ['Vishnu Manchu ,', 'Mohanlal ,', 'Prabhas, '],
+    writers: ['Vishnu Manchu', 'Gopalakrishna Paruchuri', 'G. Eshwar Reddy'],
+    stars: ['Vishnu Manchu', 'Mohanlal', 'Prabhas'],
     producer: 'Mohan Babu',
     music: 'Stephen Devassy',
     cinematography: 'Sheldon Chau',
@@ -72,6 +72,8 @@ export const projects = [
     music: 'Ajmal Hasbulla',
     cinematography: 'Don Paul',
     writers: ['Faizal Faziludeen', 'Blk Fzl'],
+    description:
+   "Where love meets suspence",
     year: 2024,
   },
 ];

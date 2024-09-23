@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 import SectionTitle from './atoms/SectionTitle';
 import SocialMediaTile from './atoms/SocialMediaTile';
 
@@ -8,9 +8,9 @@ export default function SocialMediaHandles() {
     <View>
       <SectionTitle title={'Follow me on'} />
       <View style={styles.container}>
-        <SocialMediaTile image={require('../assets/icons/instagram.png')} />
-        <SocialMediaTile image={require('../assets/icons/twitter.png')} />
-        <SocialMediaTile image={require('../assets/icons/facebook.png')} />
+        <SocialMediaTile image={require('../assets/icons/instagram.png')} url={'https://www.instagram.com/preity_mukhundhan/?hl=en'} />
+        <SocialMediaTile image={require('../assets/icons/twitter.png')} url={'https://twitter.com/preitymukundan?lang=en'} />
+        <SocialMediaTile image={require('../assets/icons/facebook.png')} url={'https://www.facebook.com/profile.php?id=61562346417285'} />
         <View
           style={{
             backgroundColor: '#9ea3fe',

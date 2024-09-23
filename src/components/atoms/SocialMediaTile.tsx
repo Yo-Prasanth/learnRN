@@ -7,14 +7,14 @@ import {
 } from 'react-native';
 import { widthRatio } from '../../constants/dimentions';
 
-export default function SocialMediaTile({image}) {
+export default function SocialMediaTile({image,url}) {
   return (
     <TouchableOpacity
       style={styles.container}
       onPress={() =>
-        Linking.openURL('https://www.instagram.com/preity_mukhundhan/?hl=en')
+        Linking.openURL(url)
       }>
-      <Image source={image} style={styles.image} />
+      <Image source={image} style={styles.image}/>
     </TouchableOpacity>
   );
 }
