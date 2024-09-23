@@ -5,6 +5,7 @@ import {
   StyleSheet,
   TouchableOpacity
 } from 'react-native';
+import { widthRatio } from '../../constants/dimentions';
 
 export default function SocialMediaTile({image}) {
   return (
@@ -20,8 +21,8 @@ export default function SocialMediaTile({image}) {
 
 const styles = StyleSheet.create({
   container: {
-    height: 64,
-    width: 64,
+    height: 64*widthRatio,
+    width: 64*widthRatio,
     backgroundColor: '#fff',
     borderRadius: 8,
     justifyContent: 'center',
@@ -31,7 +32,7 @@ const styles = StyleSheet.create({
   },
 
   image: {
-    width: 40,
-    height: 40,
+    width: 40*widthRatio,
+    height: 40*widthRatio,
   },
 });

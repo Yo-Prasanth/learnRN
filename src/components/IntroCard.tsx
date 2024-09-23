@@ -2,6 +2,7 @@ import React from 'react';
 import {Image, StyleSheet, Text, View} from 'react-native';
 import {profile_images} from '../constants/profile_images';
 import AgeCounter from './molecules/AgeCounter';
+import { widthRatio } from '../constants/dimentions';
 
 const IntroCard = () => {
   //   function to change images
@@ -19,7 +20,7 @@ const IntroCard = () => {
     <View style={style.container}>
       <Image
         source={{
-          uri: profile_images[5],
+          uri: profile_images[6],
         }}
         style={style.image}
       />
@@ -55,14 +56,14 @@ const style = StyleSheet.create({
   container: {
     flexDirection: 'row',
     backgroundColor: '#fff',
-    padding: 16,
+    padding: 10*widthRatio,
     elevation: 1,
     borderRadius: 16,
   },
 
   image: {
-    height: 150,
-    width: 150,
+    height: 140*widthRatio,
+    width: 140*widthRatio,
     borderWidth: 3,
     borderRadius: 8,
     marginRight: 8,
@@ -70,6 +71,7 @@ const style = StyleSheet.create({
 
   detailsContainer: {
     flexGrow: 1,
+    
   },
 
   description_block: {
@@ -87,7 +89,7 @@ const style = StyleSheet.create({
   },
 
   name: {
-    fontSize: 20,
+    fontSize: 18,
     color: '#262545',
     fontFamily: 'Epilogue-SemiBold',
   },

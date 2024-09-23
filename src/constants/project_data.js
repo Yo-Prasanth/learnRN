@@ -4,8 +4,8 @@ export const projects = [
     poster_url:
       'https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Kannappa_film_poster.jpg/220px-Kannappa_film_poster.jpg',
     director: 'Mukesh Kumar Singh',
-    writers: ['Vishnu Manchu', 'Gopalakrishna Paruchuri', 'G. Eshwar Reddy'],
-    stars: ['Vishnu Manchu', 'Mohanlal', 'Prabhas'],
+    writers: ['Vishnu Manchu ,', 'Gopalakrishna Paruchuri ,', 'G. Eshwar Reddy ,'],
+    stars: ['Vishnu Manchu ,', 'Mohanlal ,', 'Prabhas, '],
     producer: 'Mohan Babu',
     music: 'Stephen Devassy',
     cinematography: 'Sheldon Chau',
@@ -14,8 +14,10 @@ export const projects = [
       'An atheist hunter Kannappa becomes a devotee of Lord Shiva and plucked out his eyes in an act of devotion.',
     year: 2024,
   },
+  
   {
     title: 'Star',
+    duration:'2h 38m',
     poster_url:
       'https://m.media-amazon.com/images/M/MV5BZDFlYmRkOGItYTA0MC00ZjA0LWE2NTQtZjc3MTViZGFhZDNkXkEyXkFqcGdeQXVyMTU0ODI1NTA2._V1_.jpg',
     director: 'Elan',
@@ -39,6 +41,7 @@ export const projects = [
   },
   {
     title: 'Om Bheem Bush',
+    duration: '2h 30m',
     poster_url:
       'https://upload.wikimedia.org/wikipedia/en/9/97/Om_Bheem_Bush_poster.jpg',
     director: 'Sree Harsha Konuganti',
